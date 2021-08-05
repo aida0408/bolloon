@@ -41,3 +41,6 @@ Images.forEach((el) => {
     })
 })
 
+refresh.addEventListener("click", (event) =>{
+    zero.classList.remove("class")
+})
