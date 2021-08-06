@@ -41,6 +41,10 @@ Images.forEach((el) => {
     })
 })
 
-refresh.addEventListener("click", (event) =>{
-    zero.classList.remove("class")
+refresh.addEventListener("click", () =>{
+    zero.forEach(item =>{
+        item.src = "./images/standard_white.gif"
+    })
+    idx = 0
+    console.log(1)
 })
